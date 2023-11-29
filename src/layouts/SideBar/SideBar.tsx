@@ -111,7 +111,7 @@ const Sidebar = () => {
         onMouseOut={() => Outhover()}
       >
           <div className="header side-header">
-            <Link
+           {/*} <Link
               to={`${import.meta.env.BASE_URL}dashboard`}
               className="header-brand1"
             >
@@ -135,7 +135,7 @@ const Sidebar = () => {
                 className="header-brand-img light-logo1"
                 alt={"logo-3"}
               />
-            </Link>
+  </Link>*/}
           </div>
           <div className="main-sidemenu">
             <div className="slide-left disabled" id="slide-left">

@@ -22,17 +22,17 @@ export default function PageHeader(props:any) {
           </Breadcrumb>
         </div>
         <div className="ms-auto pageheader-btn">
-          <Link to="#" className="btn btn-primary btn-icon text-white me-3">
+          {/*<Link to="#" className="btn btn-primary btn-icon text-white me-3">
             <span>
               <i className="fe fe-plus"></i>&nbsp;
             </span>
             Add Account
-          </Link>
+          </Link>*/}
           <Link to="#" className="btn btn-success btn-icon text-white">
             <span>
               <i className="fe fe-log-in"></i>&nbsp;
             </span>
-            Export
+            Exportar
           </Link>
         </div>
       </div>
